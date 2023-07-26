@@ -4,20 +4,25 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: #5a848c; }
+  background: #fff; }
 
 .message-wrapper {
   text-align: center;
-  color: white; }
+  color: black; }
 
 .logo {
   display: block;
   width: 25vw;
   margin: 0 0 20px 0; }
 
-#logo-svg polygon,
-#logo-svg path {
-  fill: white; }
-
 .home-message {
   display: block; }
+
+.logo-wrapper {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+#fb-logo path {
+  fill: black;
+}
